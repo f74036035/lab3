@@ -1,0 +1,25 @@
+for question A : makefile
+for question B : 
+
+size = 1000
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 0.01 seconds
+v1/v2 are the same.
+size = 10000
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 1.32 seconds
+v1/v2 are the same.
+size = 100000
+sort(): 0.04 seconds
+v1/v2 are different.
+insertion_sort(): 128.09 seconds
+v1/v2 are the same.
+size = 1000000
+sort(): 0.51 seconds
+v1/v2 are different.
+...
+
+O(n^2) increses much faster than O(nlogn)
+because it has to compare n times every round in the worst situation
